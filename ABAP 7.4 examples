@@ -1,0 +1,19 @@
+Inline declarations
+
+*Inline data declaraton - Variable
+WAS:
+DATA lv_inline type string.
+lv_inline = 'Old data declaration'.
+IS:
+DATA(lv_inline) = 'Inline data declaration'.
+
+WAS: 
+DATA: lv_var2.
+lv_var2 = lv_var1.
+
+IS
+DATA(lv_var2) = lv_var1.
+
+
+
+
